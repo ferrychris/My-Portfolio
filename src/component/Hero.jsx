@@ -1,7 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import HeroImg from "../assets/HeroImg.png";
-import  CV from '../.././public/file/OGHOGHO MARCUS(1).pdf'
 
 const Hero = () => {
   return (
@@ -26,7 +25,7 @@ const Hero = () => {
           </div>
           <div className="space-x-4 mt-8">
           <a
-              href="/file/OGHOGHO%20MARCUS(1).pdf"
+              href="/public/file/OGHOGHO MARCUS(1).pdf"
               download="OGHOGHO MARCUS(1).pdf"
               className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out"
             >
