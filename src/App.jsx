@@ -9,11 +9,15 @@ function App() {
   return (
     <>
       <div className="bg-gray-900 text-white font-sans">
+        <header>
         <NavBar />
         <Hero />
+        </header>
+        <main>
         <About />
         <Project />
         <Contact />
+        </main>
         <Footer/>
       </div>
     </>
