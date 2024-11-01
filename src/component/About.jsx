@@ -21,7 +21,7 @@ const About = () => {
           maintainability.
           <br />
           <br />
-          I’m expanding my skills to become a full-stack developer, with basic
+          I’m a certified full-stack developer, accurate
           knowledge of Node.js, Express, and MySQL for backend development. I’m
           eager to tackle new challenges and create end-to-end solutions that
           meet modern web standards.
