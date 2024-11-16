@@ -9,22 +9,13 @@ const About = () => {
       <div>
         <h1 className="text-[30px] font-bold mb-8 text-center">ABOUT ME</h1>
         <p className="text-lg leading-relaxed mb-8 text-justify">
-          I am a passionate frontend developer skilled in building responsive,
-          user-friendly websites with ReactJS, Tailwind CSS, HTML, JavaScript,
-          and Redux. My expertise includes creating visually appealing and
-          functional interfaces that work seamlessly across devices.
+         I am a self-motivated full-stack developer with expertise in building responsive, user-centric web applications using ReactJS, JavaScript, Tailwind CSS, Node.js, Express, MySQL, and MongoDB.
           <br /> <br />
-          I focus on clean, efficient code to deliver excellent user
-          experiences. With ReactJS, I build dynamic applications, while
-          Tailwind CSS allows for custom, responsive designs. I also manage
-          state and complex UI logic with Redux to ensure scalability and
-          maintainability.
+         I specialize in crafting visually appealing and functional interfaces with ReactJS and Tailwind CSS, leveraging Redux for efficient state management to ensure scalable and maintainable codebases. On the backend, I use Node.js and Express to develop robust, high-performance applications, while designing efficient databases with MySQL and MongoDB for versatile data solutions.
           <br />
           <br />
-          I’m expanding my skills to become a full-stack developer, with basic
-          knowledge of Node.js, Express, and MySQL for backend development. I’m
-          eager to tackle new challenges and create end-to-end solutions that
-          meet modern web standards.
+          As a quick learner, I am always eager to expand my skills and take on new challenges. My focus is on delivering comprehensive, end-to-end solutions that adhere to modern web standards, ensuring exceptional user experiences and high-quality software development.
+          <br/>
         </p>
       </div>
       <div className="mt-[140px]">
