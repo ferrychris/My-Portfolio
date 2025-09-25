@@ -1,0 +1,31 @@
+<script>
+  // Set the expiry time (24 hours from first visit)
+  const firstVisit = localStorage.getItem("site_first_visit");
+  let expiryTime;
+
+  if (!firstVisit) {
+    const now = new Date().getTime();
+    expiryTime = now + 24 * 60 * 60 * 1000; // +24h
+    localStorage.setItem("site_first_visit", expiryTime);
+  } else {
+    expiryTime = parseInt(firstVisit, 10);
+  }
+
+  function checkExpiry() {
+    const now = new Date().getTime();
+    if (now > expiryTime) {
+      document.body.style.transition = "opacity 2s ease";
+      document.body.style.opacity = "0.1"; // fade out
+      setTimeout(() => {
+        document.body.innerHTML = `
+          <div style="text-align:center;margin-top:20%;font-family:sans-serif;">
+            <h2>⚠️ Website expired</h2>
+            <p>Please contact the administrator to restore access.</p>
+          </div>
+        `;
+      }, 2000);
+    }
+  }
+
+  window.onload = checkExpiry;
+</script>
