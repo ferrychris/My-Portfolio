@@ -1,4 +1,4 @@
-<script>
+
   // Set the expiry time (24 hours from first visit)
   const firstVisit = localStorage.getItem("site_first_visit");
   let expiryTime;
@@ -28,4 +28,4 @@
   }
 
   window.onload = checkExpiry;
-</script>
+
