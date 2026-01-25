@@ -9,9 +9,10 @@ const About = () => {
       <div>
         <h1 className="text-[30px] font-bold mb-8 text-center">ABOUT ME</h1>
         <p className="text-lg leading-relaxed mb-8 text-justify">
-          I am a passionate frontend developer skilled in building responsive,
-          user-friendly websites with ReactJS, Tailwind CSS, HTML, JavaScript,
-          and Redux. My expertise includes creating visually appealing and
+         I’m a certified full-stack developer, accurate
+          knowledge of ReactJS, Tailwind CSS, HTML, JavaScript, Redux Node.js, Express, and MySQL for backend development. I’m
+          eager to tackle new challenges and create end-to-end solutions that
+          meet modern web standards. My expertise includes creating visually appealing and
           functional interfaces that work seamlessly across devices.
           <br /> <br />
           I focus on clean, efficient code to deliver excellent user
@@ -21,10 +22,7 @@ const About = () => {
           maintainability.
           <br />
           <br />
-          I’m expanding my skills to become a full-stack developer, with basic
-          knowledge of Node.js, Express, and MySQL for backend development. I’m
-          eager to tackle new challenges and create end-to-end solutions that
-          meet modern web standards.
+          
         </p>
       </div>
       <div className="mt-[140px]">
