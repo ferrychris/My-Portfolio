@@ -12,7 +12,7 @@ const Hero = () => {
           </h1>
           <div className="text-2xl md:text-3xl font-bold mb-6 text-gray-300">
             <TypeAnimation
-              sequence={["Frontend Developer", 1000, "React Developer", 1000]}
+              sequence={["Fullstack Developer", 1000, "React And Nodejs", 1000]}
               wrapper="span"
               speed={50}
               style={{
